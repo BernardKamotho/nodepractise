@@ -27,3 +27,13 @@ welcome.sayHello()
 console.log("The Date is: " + welcome.currDate)
 console.log("The Time is: " + welcome.currTime)
 console.log(`The name of the company is: ${welcome.companyName}`)
+
+
+//import the summation module
+const summation = require("./summation")
+
+// access the function inside of the module
+summation.addition(4, 8, 6);
+
+// create a mudule called AreaOfASqure
+// inside, create a function that accepts parameters and find the area of the square. Import the module inside of tha app.js file
