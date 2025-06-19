@@ -37,3 +37,16 @@ summation.addition(4, 8, 6);
 
 // create a mudule called AreaOfASqure
 // inside, create a function that accepts parameters and find the area of the square. Import the module inside of tha app.js file
+
+// import the module mathUtil
+const mathUtil = require("./mathUltils")
+
+// access the function inside of the module
+console.log(mathUtil.division(70, 10));
+console.log(mathUtil.multiply(5, 10, 16));
+console.log(mathUtil.power(7));
+
+
+// create a module call it "stringUtil".
+// Have three functions: one to transform a string entered into uppercase, lowercase and another one to count the letter of a string.
+// import the function inside of app.js and call the three funtions.
